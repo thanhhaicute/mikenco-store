@@ -1,0 +1,335 @@
+@font-face {
+    font-family: ProximaNova;
+    src: url('../css/fonts/ProximaNova-Bold.woff');
+}
+@font-face {
+    font-family: ProximaNova;
+    src: url('../css/fonts/ProximaNova-Extrabld.woff');
+}
+@font-face {
+    font-family: ProximaNova;
+    src: url('../css/fonts/ProximaNova-Light.woff');
+}
+@font-face {
+    font-family: ProximaNova;
+    src: url('../css/fonts//ProximaNova-Regular.woff');
+}
+@font-face {
+    font-family: ProximaNova;
+    src: url('../css/fonts/ProximaNova-Semibold.woff');
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: pink;
+  }
+body {
+    font-family: ProximaNova;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#container{
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    .header{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        .left{
+            display: flex;
+            .logo{
+                position: relative;
+                top: 50px;
+                left: 30px;
+                display: inline-block;
+                img{
+                    width: 300px;
+                }
+            }
+
+            li{
+                position: relative;
+                top: 70px;
+                left: 100px;
+                a{
+                    font-size: 25px;
+                    font-weight: 100;
+                    margin-left: 30px;
+                    color: gray;
+                    text-decoration-color: red;
+
+                }
+                &:hover{
+                    text-decoration: underline 5px;
+                    text-underline-offset: 5px;
+                }
+                
+            }
+           
+            
+        }
+        .mobile{
+            display: none;
+        }
+        .right{ 
+            position: relative;
+            display: flex;
+            justify-content: center;
+            i{
+                position: relative;
+                top: 70px;
+                right: 40px;
+                margin-right: 50px;
+                font-size: 30px;
+                color: gray;
+                &:hover{
+                    color: white;
+                }
+            }
+            .lauguge{
+                z-index: 100000;
+                color: white;
+                position:fixed;
+                right: 0;
+                top: 300px;
+                span{
+                    padding: 20px;
+                    display: flex;
+                    align-items: center;
+                    background-color: gray;
+                    border-bottom: 1px solid white;
+                    &:hover{
+                        background-color: white;
+                        color: black;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .theme{
+                z-index: 100000;
+                color: white;
+                position:fixed;
+                right: 0;
+                top: 460px;
+                
+                .black{
+                    width: 1.6vh;
+                    padding: 20px;
+                    display: flex;
+                    align-items: center;
+                    background-color: rgb(49, 46, 46);
+                    border-bottom: 1px solid white;
+                    &:hover{
+                        background-color: white;
+                        color: black;
+                        cursor: pointer;
+                    }
+                }
+                .gray{
+                    width: 1.6vh;
+                    padding: 20px;
+                    display: flex;
+                    align-items: center;
+                    background-color:gray;
+                    border-bottom: 1px solid white;
+                    &:hover{
+                        background-color: white;
+                        color: black;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+    .banner{
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        .banner-img{
+            left: 100px;
+            position: relative;
+            display: inline-block;
+            img{
+                border-radius: 100vh;
+                width: 500px;
+            }
+        }
+        .description{
+            top: -50px;
+            position: relative;
+            color: gray;
+            left: 20vh;
+            width: 50vh;
+            height: fit-content;
+            h3{
+                font-size: 100px;
+            }
+            p{
+                font-size: 30px;
+            }
+        }
+        .banner-imgg{
+            position: absolute;
+            display: inline-block;
+            right: 50px;
+           img{
+               width: 400px;
+           }
+        }
+        .switch{
+            width: 20vh;
+            position: relative;
+            top: -50px;
+            left: -20vh;
+            display: flex;
+            .tit1{
+                position: relative;
+                width: 30px;
+                height: 1vh;
+                background-color: white;
+                &:hover{
+                    background-color: purple;
+                    cursor: pointer;
+                }
+            }
+            .tit2{
+                width: 30px;
+                height: 1vh;
+                background-color: white;
+                position: relative;
+                left: 20px;
+                &:hover{
+                    background-color: purple;
+                    cursor: pointer;
+                }
+            }
+            .tit3{
+                width: 30px;
+                height: 1vh;
+                background-color: white;
+                position: relative;
+                left: 40px;
+                &:hover{
+                    background-color: purple;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .body{
+        width: 100%;
+        height: 80vh;
+        .title{
+            text-align: center;
+            color: gray;
+            font-size: 50px;
+        }
+        .item{
+            position: relative;
+            top: 50px;
+            justify-content: center;
+            display: flex;
+            .list-item{
+                img{
+
+                    display: inline-block;
+                    width: 500px;
+                    height: 50vh;
+                    margin-left: 50px;
+                    border-radius: 50px;
+                }
+                         
+            }
+           
+        }
+    }
+    .footer{
+        position: relative;
+        width: 100%;
+        height: 10vh;
+        top: 10vh;
+        bottom: 0;
+        background-color: rgb(14, 12, 12);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: none;
+        span{
+            margin-top: 20px;
+            font-size: 20px;
+            color: gray;
+        }
+        p{
+            font-size: 20px;
+
+            color: gray;
+        }
+    }
+}
+@media only screen and (max-width: 601px) {
+    .container{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background-color: #000000;
+        .header{
+            .left{
+                .logo{
+                    img{
+                        width: 250px;
+                    }
+                }
+            }
+            .mobile{
+                color: gray;
+                display: block;
+            }
+            
+            li{
+                display: none;
+            }
+        }
+        .banner{
+            display: none;
+
+        }
+        .body{
+            display: none;
+
+        }
+        .footer{
+            height: 20vh;
+            position: relative;
+            top: 78vh;
+        }
+    }
+    
+  }
