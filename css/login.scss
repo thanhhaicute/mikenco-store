@@ -70,8 +70,8 @@ a{
                 left: 30px;
                 display: inline-block;
                 img{
-                    width: 300px;
-                }
+                    width: 200px;              
+                  }
             }
 
             li{
@@ -79,7 +79,7 @@ a{
                 top: 70px;
                 left: 100px;
                 a{
-                    font-size: 25px;
+                    font-size: 20px;
                     font-weight: 100;
                     margin-left: 30px;
                     color: gray;
@@ -120,7 +120,7 @@ a{
                 right: 0;
                 top: 300px;
                 span{
-                    padding: 20px;
+                    padding: 10px;
                     display: flex;
                     align-items: center;
                     background-color: gray;
@@ -138,9 +138,9 @@ a{
                 position:fixed;
                 right: 0;
                 top: 460px;
+                
                 .black{
-                    width: 1.6vh;
-                    padding: 20px;
+                    padding: 10px;
                     display: flex;
                     align-items: center;
                     background-color: rgb(49, 46, 46);
@@ -152,8 +152,7 @@ a{
                     }
                 }
                 .gray{
-                    width: 1.6vh;
-                    padding: 20px;
+                    padding: 10px;
                     display: flex;
                     align-items: center;
                     background-color:gray;
@@ -186,7 +185,7 @@ a{
             color: gray;
         }
         p{
-            font-size: 20px;
+            font-size: 16px;
 
             color: gray;
         }
@@ -197,9 +196,9 @@ a{
         width: 100%;
         position: absolute;
         color: gray;
-        top: 230px;
+        top: 150px;
         h2{
-            font-size: 60px;
+            font-size: 40px;
         }
        .login{
            position: relative;
@@ -209,7 +208,7 @@ a{
                 }
                 input{
                     width: 40vh;
-                    padding: 20px;
+                    padding: 10px;
                     border: none;
                     border-radius: 5px;
                     font-size: 20px;
@@ -222,7 +221,7 @@ a{
                 }
                 input{
                     width: 40vh;
-                    padding: 20px;
+                    padding: 10px;
                     border: none;
                     border-radius: 5px;
                     font-size: 20px;
@@ -236,7 +235,7 @@ a{
                     font-size: 20px;
                     outline: none;
                     width: 22vh;
-                    padding: 20px;
+                    padding: 15px;
                     margin-top: 40px;
                     &:hover{
                         background-color: gray;
@@ -254,7 +253,7 @@ a{
             }
             input{
                 width: 40vh;
-                padding: 20px;
+                padding: 10px;
                 border: none;
                 border-radius: 5px;
                 font-size: 20px;
@@ -267,7 +266,7 @@ a{
             }
             input{
                 width: 40vh;
-                padding: 20px;
+                padding: 10px;
                 border: none;
                 border-radius: 5px;
                 font-size: 20px;
@@ -280,7 +279,7 @@ a{
             }
             input{
                 width: 40vh;
-                padding: 20px;
+                padding: 10px;
                 border: none;
                 border-radius: 5px;
                 font-size: 20px;
@@ -294,7 +293,7 @@ a{
                 font-size: 20px;
                 outline: none;
                 width: 22vh;
-                padding: 20px;
+                padding: 15px;
                 margin-top: 40px;
                 &:hover{
                     background-color: gray;
