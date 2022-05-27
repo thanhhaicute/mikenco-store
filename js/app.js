@@ -21,7 +21,7 @@ function descript1() {
     mũi chỉ được thương hiệu đặt lên hàng đầu`;
 }
 function descript2() {
-    document.getElementById("description").innerHTML = `Năm 2019, MIKENCO gây ấn tượng với thị trường thời trang với dòng sản phẩm Limited cùng công nghệ thực tế ảo tăng cường AR đầu tiên tại Việt Nam, Trong năm đó, thương hiệu đã được rất nhiều người nổi tiếng tin dùng bởi sự khác biệt và độc quyền.`;
+    document.getElementById("description").innerHTML = `Năm 2019, MIKENCO gây ấn tượng với thị trường thời trang với dòng sản phẩm Limited cùng công nghệ thực tế ảo tăng cường AR đầu tiên tại Việt Nam, Năm đó, thương hiệu đã được rất nhiều người nổi tiếng tin dùng bởi sự khác biệt và độc quyền.`;
 }
 function descript3() {
     document.getElementById("description").innerHTML = `Cho đến nay, MIKENCO vẫn giới hạn sản xuất và phân phối ản phẩm với mục đích rõ ràng – chỉ làm tăng nhu cầu chứ không đáp ứng. Điều đó làm MIKENCO luôn giữ được vị trí trong lòng khách hàng và giá trị thương hiệu tại Việt Nam`;
