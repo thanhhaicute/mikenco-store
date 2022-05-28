@@ -5,6 +5,7 @@ function laugugeus() {
     document.getElementById("servies").innerHTML = "Service";
     document.getElementById("title").innerHTML = "Featured products";
     document.getElementById("addres").innerHTML = "55 To Giang, District 1, Ho Chi Minh City";
+    document.getElementById("titlee").innerHTML = "Sales";
 
 }
 function laugugevn() {
@@ -14,6 +15,8 @@ function laugugevn() {
     document.getElementById("servies").innerHTML = "Dịch vụ";
     document.getElementById("title").innerHTML = "Sản phẩm nổi bật";
     document.getElementById("addres").innerHTML = "55 Tô Giang, Quận 1, Thành phố hồ Chí Minh";
+    document.getElementById("titlee").innerHTML = "Doanh số bán hàng";
+
 }
 function descript1() {
     document.getElementById("description").innerHTML = `MIKENCO (2018) được ra đời với phong cách hướng đến sự khác biệt và chỉ những người quan tâm mới nhận
@@ -33,3 +36,42 @@ function themeGray() {
     document.getElementById('container').style.backgroundColor = 'white';
 
 }
+
+
+const data = {
+    labels: [
+        'Quần',
+        'Áo',
+        'Giày',
+        'Balo',
+        'Kính'
+    ],
+    datasets: [{
+        label: 'My First Dataset',
+        data: [11, 16, 7, 3, 14],
+        backgroundColor: [
+            'rgb(255, 99, 132)',
+            'rgb(75, 192, 192)',
+            'rgb(255, 205, 86)',
+            'rgb(201, 203, 207)',
+            'rgb(54, 162, 235)'
+        ]
+    }]
+};
+const config = {
+    type: 'polarArea',
+    data: data,
+    options: {
+        plugins: {
+            legend: {
+                labels: {
+                    // This more specific font property overrides the global property
+                    font: {
+                        size: 20
+                    },
+
+                }
+            }
+        }
+    }
+};
