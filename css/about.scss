@@ -35,9 +35,11 @@ a{
     text-decoration: none;
 }
 #container{
+    position: relative;
     width: 100%;
-    height: fit-content;
-    background-color: black;
+    height: 100vh;
+    background-color: #000000;
+    overflow-x: hidden;
     .header{
         width: 100%;
         height: 10vh;
@@ -51,8 +53,8 @@ a{
                 left: 30px;
                 display: inline-block;
                 img{
-                    width: 200px;
-                }
+                    width: 200px;              
+                  }
             }
 
             li{
@@ -147,114 +149,12 @@ a{
             }
         }
     }
-    .banner{
-        width: 100%;
-        height: 90vh;
-        display: flex;
-        align-items: center;
-        .banner-img{
-            left: 100px;
-            position: relative;
-            display: inline-block;
-            img{
-                border-radius: 100vh;
-                width:350px;
-            }
-        }
-        .description{
-            top: -50px;
-            position: relative;
-            color: gray;
-            left: 20vh;
-            width: 50vh;
-            height: fit-content;
-            h3{
-                font-size: 80px;
-            }
-            p{
-                font-size: 20px;
-            }
-        }
-        .banner-imgg{
-            position: absolute;
-            display: inline-block;
-            right: 50px;
-           img{
-               width: 300px;
-           }
-        }
-        .switch{
-            width: 10vh;
-            position: relative;
-            top: -50px;
-            left: -20vh;
-            display: flex;
-            .tit1{
-                position: relative;
-                width: 30px;
-                height: 1vh;
-                background-color: white;
-                &:hover{
-                    background-color: purple;
-                    cursor: pointer;
-                }
-            }
-            .tit2{
-                width: 30px;
-                height: 1vh;
-                background-color: white;
-                position: relative;
-                left: 20px;
-                &:hover{
-                    background-color: purple;
-                    cursor: pointer;
-                }
-            }
-            .tit3{
-                width: 30px;
-                height: 1vh;
-                background-color: white;
-                position: relative;
-                left: 40px;
-                &:hover{
-                    background-color: purple;
-                    cursor: pointer;
-                }
-            }
-        }
-    }
-    .body{
-        width: 100%;
-        height: 80vh;
-        .title{
-            text-align: center;
-            color: gray;
-            font-size: 50px;
-        }
-        .item{
-            position: relative;
-            top: 50px;
-            justify-content: center;
-            display: flex;
-            .list-item{
-                img{
 
-                    display: inline-block;
-                    width: 300px;
-                    height: 50vh;
-                    margin-left: 50px;
-                    border-radius: 50px;
-                }
-                         
-            }
-           
-        }
-    }
+  
     .footer{
-        position: relative;
+        position: absolute;
         width: 100%;
         height: 10vh;
-        top: 10vh;
         bottom: 0;
         background-color: rgb(14, 12, 12);
         text-align: center;
@@ -268,48 +168,36 @@ a{
             color: gray;
         }
         p{
-            font-size: 14px;
+            font-size: 16px;
 
             color: gray;
         }
     }
+
+   .body{
+       width: 100%;
+       position: relative;
+       color: gray;
+       display: flex;
+       justify-content: center ;
+       .box{
+           text-align: left;
+           border-radius: 10px;
+           position: relative;
+           top: 70px;
+           padding: 20px;
+           width: 80vh;
+           height: fit-content;
+           border: 1px solid gray;
+           .des{
+               display: flex;
+               justify-content: space-between;
+           }
+           .img{
+               position: relative;
+               left: 30vh;
+           }
+       }
+   }
+
 }
-@media only screen and (max-width: 601px) {
-    .container{
-        position: relative;
-        width: 100%;
-        height: 100vh;
-        background-color: #000000;
-        .header{
-            .left{
-                .logo{
-                    img{
-                        width: 250px;
-                    }
-                }
-            }
-            .mobile{
-                color: gray;
-                display: block;
-            }
-            
-            li{
-                display: none;
-            }
-        }
-        .banner{
-            display: none;
-
-        }
-        .body{
-            display: none;
-
-        }
-        .footer{
-            height: 20vh;
-            position: relative;
-            top: 78vh;
-        }
-    }
-    
-  }
