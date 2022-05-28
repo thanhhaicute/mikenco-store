@@ -10,7 +10,7 @@ function laugugeus() {
     document.getElementById("btn-login").innerHTML = "Login";
     document.getElementById("btn-res").innerHTML = "Resigter";
     document.getElementById("title-res").innerHTML = "Resigter";
-    document.getElementById("account-res").innerHTML = "Account or email:";
+    document.getElementById("account-res").innerHTML = "Account:";
     document.getElementById("password-res").innerHTML = "Password:";
     document.getElementById("email-res").innerHTML = "Email:";
     document.getElementById("btn-login-res").innerHTML = "Login";
@@ -29,7 +29,7 @@ function laugugevn() {
     document.getElementById("btn-login").innerHTML = "Đăng nhập";
     document.getElementById("btn-res").innerHTML = "Đăng ký";
     document.getElementById("title-res").innerHTML = "Đăng ký";
-    document.getElementById("account-res").innerHTML = "Tài khoản hoặc email:";
+    document.getElementById("account-res").innerHTML = "Tài khoản:";
     document.getElementById("password-res").innerHTML = "Mật khẩu:";
     document.getElementById("email-res").innerHTML = "Email:";
     document.getElementById("btn-login-res").innerHTML = "Đăng nhập";
